@@ -107,7 +107,7 @@ open class Highlightr
         let command: String
         if let languageName = languageName
         {
-            command = String.init(format: "%@.highlight(\"%@\",\"%@\", true).value;", hljs, languageName, fixedCode)
+            command = String.init(format: "%@.highlight(\"%@\",\"%@\",true).value;", hljs, languageName, fixedCode)
         }else
         {
             // language auto detection
