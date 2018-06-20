@@ -1,0 +1,4 @@
+[submodule "highlight.js"]
+	path = highlightjs
+	url = https://github.com/kabiroberai/highlight.js
+	branch = objective-script
